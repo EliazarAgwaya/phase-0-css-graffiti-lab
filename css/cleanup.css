@@ -1,1 +1,19 @@
-/* write your override styles here */
+  #wall > .tag-1 {
+    position: relative;
+    left: 200px;
+    top: 150px;
+    height: 600px;
+    width: 700px;
+  }
+  div > #wall >.slick {
+    z-index: 7;
+    display: none
+  }
+  div#wall .parent >.slick {
+        z-index: 3;
+    display: none;
+  }
+  body div#wall div.parent div >.slick {
+       z-index: 5;
+    display: none
+  }
